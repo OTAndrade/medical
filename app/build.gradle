@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword 'keypassword'
+            storeFile file('/home/andrade/Escritorio/Desarrollo/ineedserv/ClaveMedicalYKeystoreGoogleStore/ClaveYKesystoreiNeedServGoogleStore.jks')
+            storePassword 'keyStore'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.ineedserv.medical"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 8
+        versionName "1.5" // version en produccion 1.5
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+           debug {
+
+               minifyEnabled false
+               proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+           }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile('com.mikepenz:aboutlibraries:5.0.6@aar') {
+        transitive = true
+    }
+    compile('com.mikepenz:materialdrawer:3.0.9@aar') {
+        transitive = true
+    }
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.android.gms:play-services-plus:11.2.0'
+    compile 'com.google.android.gms:play-services-maps:11.2.0'
+    compile 'com.google.android.gms:play-services-auth:11.2.0'
+    compile 'com.google.firebase:firebase-messaging:11.2.0'
+    compile 'com.google.firebase:firebase-auth:11.2.0'
+    compile 'com.google.firebase:firebase-database:11.2.0'
+    // FirebaseUI for Firebase Realtime Database
+    //compile 'com.firebaseui:firebase-ui-database:3.1.0'
+    compile 'com.firebaseui:firebase-ui-database:1.0.0'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'
+

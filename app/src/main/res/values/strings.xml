@@ -1,0 +1,517 @@
+<resources>
+    <string name="action_settings">Ajustes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">hola oscar</string>
+    <string name="title_activity_ubicacion" translatable="false">Map</string>
+    <string name="sinUbicacion">La ubucación no esta activada, verifique e intente de nuevo</string>
+    <string name="sinTarjetaSim">SIM Card no registrada. Verifique el el Móvil tenga una SIM Card e intente nuevamente.</string>
+    <string name="permission_rationale_location">Acceso a ubicación requerida para mostrar \'mi Ubicación\', que muestra la ubicación actual en el map.</string>
+
+    <string name="permission_required_toast">Se requiere permiso de ubicación para esta demostración.</string>
+
+    <string name="app_name">iNeed</string>
+    <string name="title_activity_maps">iNeed</string>
+    <string name="hintAutocomplete">¿Que necesitas?</string>
+    <string name="pause">Pausa</string>
+    <string name="resume">Resumen</string>
+    <string name="nroFono">8</string>
+    <string name="nroPwd">15</string>
+    <string name="nroVerificacion">4</string>
+
+
+    <string name="title_tab0">Tab 0</string>
+    <string name="title_tab2">Tab 2</string>
+
+
+    <string-array name="servicios_array">
+        <item>Alergia/Inmunología</item>
+        <item>Anestesiología</item>
+        <item>Cardiología</item>
+        <item>Medicina de Cuidados Intensivos</item>
+        <item>Dermatología</item>
+        <item>Medicina de Emergencia</item>
+        <item>Endocrinología</item>
+        <item>Medicina Familiar</item>
+        <item>Gastroenterología</item>
+        <item>Genética</item>
+        <item>Geriatría</item>
+        <item>Hematología/Oncología</item>
+        <item>Enfermedades Infecciosas</item>
+        <item>Medicina Interna</item>
+        <item>Neonatología</item>
+        <item>Nefrología</item>
+        <item>Neurología</item>
+        <item>Neurocirugía</item>
+        <item>Obstetricia/Ginecología</item>
+        <item>Cirugía Oncológica</item>
+        <item>Oftalmología</item>
+        <item>Ortopedia</item>
+        <item>Otorrinolaringología</item>
+        <item>Manejo  del Dolor</item>
+        <item>Patología</item>
+        <item>Pediatría</item>
+        <item>Cirugía Pediátrica</item>
+        <item>Cirugía Plástica y Reconstructiva</item>
+        <item>Podiatría</item>
+        <item>Medicina Preventiva</item>
+        <item>Psiquiatría</item>
+        <item>Neumología</item>
+        <item>Radiología</item>
+        <item>Endocrinología Reproductiva</item>
+        <item>Reumatología</item>
+        <item>Cirugía General</item>
+        <item>Cirugía Torácica</item>
+        <item>Urología</item>
+        <item>Cirugía Vascular</item>
+        <item>Traumatología</item>
+        <item>Pintor</item>
+        <item>Plomero</item>
+        <item>Abogado</item>
+        <item>Abogado derecho civil</item>
+        <item>Abogado derecho laboral</item>
+        <item>Abogado derecho mercantil</item>
+        <item>Abogado derecho familia</item>
+        <item>Abogado derecho bancario</item>
+        <item>Abogado derecho administrativo</item>
+        <item>Técnico auxiliar de fisioterapia</item>
+        <item>Técnico en topografía</item>
+        <item>Técnico en deporte, recreación y preparación física</item>
+        <item>Veterinario</item>
+        <item>Mecánico Automotriz</item>
+    </string-array>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string name="title_activity_login">Registrarse</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_celular">Número de Celular</string>
+    <string name="action_sign_in">Registrarse</string>
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="error_invalid_password">No corresponde a un número de celular</string>
+    <string name="error_incorrect_password">La contraseña no corresponde</string>
+    <string name="error_field_required">Campo Requerido</string>
+    <string name="permission_rationale">"Se requieren permisos de contactos para completar el correo electrónico. "</string>
+    <!-- mensajes de administracion de usuario-->
+    <string name="desconectar">Sesion desconectada.</string>
+    <string name="resetPass">Contraseña actualizada, ingrese nuevamente con la nueva contraseña!</string>
+    <string name="errorpass">Error al actualizar la contraseña!</string>
+    <string name="msgErr">Contraseña muy corta, deben ser mínimo 6 caracteres.</string>
+
+
+    <string name="title_activity_registra">registra</string>
+    <string name="title_activity_captura_numero">capturaNumero</string>
+    <string name="title_activity_localizacion">Localicación</string>
+    <string name="title_activity_registra_solicitante">RegistraSolicitante</string>
+
+    <string name="title_activity_sin_conexion">SinConexion</string>
+    <string name="sinConexionUbicacion">Volver a intentar</string>
+    <string name="activarUbicacion">Su ubicación esta desactivada.\nPor favor active su ubicación, use esta app</string>
+    <string name="confUbicacion">Configuración de ubicación</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
+
+
+    <string name="registraSolicitantenro">Cuatro dígitos enviados al celular</string>
+    <string name="registraSolicitantenom">Nombre</string>
+    <string name="registraSolicitanteemail">Correo electrónico.</string>
+    <string name="registraSolicitantebtn">Registrar</string>
+    <string name="verificaSolicitantebtn">Confirmar</string>
+
+    <string name="inicioSesion">Registre la contraseña que se envió a su correo electrónico.</string>
+    <string name="inicioSesionpwd">Introduzca su Contraseña</string>
+    <string name="inicioSesionbtn">Siguiente</string>
+
+    <string name="contentMain">Solicita lo que necesitas  iNeed</string>
+    <string name="opcion1">Solicitudes de servicio recibidas</string>
+    <string name="opcion2">Servicios ofrecidos solicitados</string>
+    <string name="opcion3">Ayuda</string>
+    <string name="opcion4">Administración</string>
+    <string name="opcion5">Acerca de</string>
+
+    <string name="activityPrincipal">Número de Celular</string>
+    <string name="activityPrincipalbtn">Siguiente</string>
+    <string name="soyofertante">Para <b>ofrecer</b> tus servicios registrate haciendo click <b><u>AQUI</u></b> o ingresa a la página www.inedserv.com. Luego ingresa con tu usuario y contraseña </string>
+
+    <string name="ofertantesQneed">Que necesitas?</string>
+    <string name="ofertanteslimpiar">Limpiar</string>
+    <string name="ofertantesdist">Define la distancia</string>
+    <string name="ofertantesbtn">Solicitar</string>
+    <string name="ofertantesbtn2">Ver Solicitudes</string>
+    <string name="ofertanteerr">No puedes volver a la página web</string>
+    <string name="ofertantegrb">El registro fue grabado correctamente!!</string>
+    <string name="ofertanteconf">Cita confirmada.</string>
+    <string name="ofertantesser">No hay proveedores para este servicio</string>
+    <string name="ubucacion">Tu ubicación</string>
+
+
+
+    <string name="solicitantesbtn">Actualizar</string>
+    <string name="solicitanteshist">Historial</string>
+    <string name="sinLista">No tiene historial.</string>
+
+
+    <string name="cancelar">Cancelar</string>
+
+    <string name="title_activity_sin_ubicacion">SinUbicacion</string>
+    <string name="title_activity_sin_tarjeta_sim">SinTarjetaSim</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="auth_failed">Usuario o contraseña inválidos, inténtalo de nuevo.</string>
+
+
+    <string name="ayudaSolicitante">Como solicitar un servicio?\n\nPuedes solicitar un servicio desde iNeed.\nPara hacerlo, realiza lo siguiente:\n
+        1. Abre la app de iNeed y toca la casilla: Que necesitas?\n
+        2. Selecciona una especialidad de la lista de especialidades.\n
+        3. Define el radio de búsqueda, se buscaran todos los especialistas que se encuentren dentro del radio definido.\n
+        4. Presiona sobre el alfiler para observar la información del especialista.\n
+        5. Presiona el botón Solicitar para enviar solicitudes a los especialistas seleccionados.\n
+        6. Para realizar una nueva búsqueda presiona el botón Limpiar.\n
+        7. Para ver las solicitudes realizadas presiona el botón Ver Solicitudes.\n\n
+        Que tengo que esperar después de Solicitar un Servicio?\n\n
+        1. Luego de presionar el botón Solicitar todos los especialistas seleccionado reciben una solicitud.\n
+        2. A medida que los especialistas vayan atendiendo la solicitud los alfileres irán cambiando de color a Amarillo.\n\n
+        Como confirmo una solicitud atendida?\n\n
+        1. Cuando uno o mas alfileres esten de color amarillo usted podrá ver la información del especialista y la hora que este propone para la cita haciendo click sobre el alfiler.\n
+        2. Haciendo click por segunda vez podrá confirmar la cita con el especialista seleccionado.\n
+        3. Luego de confirmar una cita las solicitudes elaboradas desapareceran y quedará la solicitud confirmada con un alfiler de color Verde.
+    </string>
+
+    <string name="ayudaOfertante">Como atender una solicitud de servicio?\n\n
+        En la pantalla principal se mostrarán todas las solicitudes atravez de alfileres.\n
+        Para atender una solicitudes debera hacer lo siguiente:\n
+        1. Haga click sobre el alfiler que quiere atender.\n
+        2. Para atender la solicitud seleccionada haga click nuevamente como indica el texto del alfiler.\n
+        3. Seleccione la hora en la cual propone la cita\n
+        4. El alfiler cambiará de color a amarillo.\n
+        5. Cuando el solicitante confirme la cita, el alfiler se colocará de color Verde.
+    </string>
+
+    <string name="cel_length">8</string>
+    <string name="campobd">correo</string>
+
+    <!--string name="app_name">iNeed</string-->
+    <!--string name="action_sign_in_short">Register</string-->
+    <string name="email">Email</string>
+    <string name="minimum_password">Contraseña demasiado corta, ingrese un mínimo de 6 caracteres.</string>
+    <!--string name="auth_failed">Authentication failed, check your email and password or sign up</string-->
+    <string name="change_email">Cambiar e-mail</string>
+    <string name="change_password">Cambia la contraseña</string>
+    <string name="send_password_reset_email">Enviar correo electrónico de restablecimiento de contraseña</string>
+    <string name="remove_user">Borrar usuario</string>
+    <string name="new_pass">Nueva contraseña</string>
+    <string name="title_activity_profile">iNeed</string>
+    <!--string name="title_activity_login">Sign in</string-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="prompt_password">Introduzca su contraseña</string>
+    <string name="btn_link_to_register">¿No eres un paciente? Regístrese en iNeed ahora!</string>
+    <string name="btn_link_to_login">Ya registrado. Iniciar sesión!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="btn_reset_password">Restablecer la contraseña</string>
+    <string name="btn_back"><![CDATA[<< Volver]]></string>
+    <string name="hint_new_email">Nuevo Email</string>
+    <string name="btn_change">Cambiar</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_remove">Borrar</string>
+    <string name="btn_sign_out">Desconectar</string>
+    <string name="lbl_forgot_password">¿Se te olvidó tu contraseña?</string>
+    <string name="forgot_password_msg">Solo necesitamos su correo electrónico registrado para enviarle las instrucciones de restablecimiento de contraseña.</string>
+    <string name="email_id">Email</string>
+    <string name="hora_de_la_cita">SELECCIONE LA HORA\nPARA LA CITA</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="direccionEmail">Introduzca la dirección de correo!</string>
+    <string name="introPass">Introduzca la contraseña!</string>
+    <string name="verificacionPass">Verifique contraseña</string>
+    <string name="introPassVerif">Introduzca la verificación.</string>
+    <string name="passDiferentes">La Contraseña no coincide.</string>
+    <string name="popup_aceptar">Debe seleccionar una hora.</string>
+    <string name="popup_acep_ok">Cita aceptada para horas:</string>
+    <string name="imposibleCitas">Por el horario no será posible concretar citas. Elabore su solicitud el día de mañana.</string>
+    <string name="usrNoconectado">Usuario no conectado</string>
+    <string name="resetIntroCorreo">Introduzca su correo electrónico.</string>
+    <string name="resetinstrucciones">¡Le hemos enviado instrucciones para restablecer su contraseña!</string>
+    <string name="resetError">Error al enviar el correo electrónico de reinicio!</string>
+    <string name="singupingresa">¡Ingresa número telefónico!</string>
+    <string name="singupNombre">¡Ingresa el nombre completo!</string>
+    <string name="singupDireccion">¡Introducir la dirección de correo electrónico!</string>
+    <string name="singuppass">Introduzca contraseña!</string>
+    <string name="singuppasscorta">Contraseña demasiado corta, ingrese un mínimo de 6 caracteres.</string>
+    <string name="singupAutfail">Autenticación fallida.</string>
+    <string name="locoferDr">El Doctor\t</string>
+    <string name="locoferacepto">aceptó su solicitud.</string>
+    <string name="locoferVersolicitud">Ver Solicitudes</string>
+    <string name="locoferNoexisteReg">Error no existe el registro!!</string>
+    <string name="locofersolconfirmada">Solicitud Confirmada</string>
+    <string name="locoferUdtieneunaSol">Ud. tiene una solicitud</string>
+    <string name="locoferL1aceptada">" Solicitud Aceptada\nPresione AQUI si desea CONFIRMAR"</string>
+    <string name="locofeL2aceptada">" Hora de la cita:\t"</string>
+    <string name="locoferL3aceptada">"\n Costo consulta:\t"</string>
+    <string name="locoferL4aceptada">"\n Años de experiencia:\t"</string>
+    <string name="locoferL5aceptada">"\n Contacto."</string>
+    <string name="locoferL7aceptada">\n Dirección:\t</string>
+    <string name="locoferL1confirmada">Solicitud Confirmada\nUd. tiene una cita a hrs:\t</string>
+    <string name="locoferL2confirmada">" Con el(la) doctor(a):\t</string>
+    <string name="locoferL3confirmada">"\n Nro. Ref:\t"</string>
+    <string name="locoferL4confirmada">"\n Dirección:\t"</string>
+    <string name="locoferL5confirmada">"\n Costo consulta:\t"</string>
+    <string name="locoferL6confirmada">"\n Distancia:\t"</string>
+    <string name="locoferL7confirmada">"\n Años de experiencia:\t"</string>
+    <string name="locoferL1elaborada">Solicitud enviada.</string>
+    <string name="locoferL2elaborada">" Dr:\t"</string>
+    <string name="locoferL3elaborada">"\n Especialidad:\t"</string>
+    <string name="locoferL41elaborada">"\n a\t"</string>
+    <string name="locoferL42elaborada">"\tKm. de distancia\t"</string>
+    <string name="locoferL5elaborada">"\n Dirección:\t"</string>
+    <string name="locoferUbicacion">Habilitar ubicación</string>
+    <string name="locoferUbicL1">Su ubicación esta desactivada.  por favor active su ubicación</string>
+    <string name="locoferubicL2">Configuración de ubicación</string>
+    <string name="locoferUbicL3">Cancelar</string>
+    <string name="locoferA">"\na\t</string>
+    <string name="locoferKm">\tkm.\n Dirección:\t</string>
+    <string name="locsolL1aceptada">Realizada por\t</string>
+    <string name="locsolL2aceptada">Estado:\t</string>
+    <string name="locsolL21aceptada">" en fecha:\t"</string>
+    <string name="locsolL1confirmada">\tpara hrs:\t</string>
+    <string name="locsolL2confirmada">Tiene una cita CONFIRMADA.</string>
+    <string name="locsolL1elaborada">Tiene una solicitud de atención.</string>
+    <string name="locsolMapa">MAPA</string>
+    <string name="locsolErrnoexisteReg">Error no existe el registro!!</string>
+    <string name="locsolAceptada">"Solicitud Aceptada\n"</string>
+    <string name="locsolconfirma">Espere la confirmación del paciente\n</string>
+    <string name="locsolL1acepta">Se espera la confirmación del paciente\n</string>
+    <string name="locsolL1confirma">Solicitud Confirmada\nCita programada para Hrs:\t</string>
+    <string name="locsolL2confirma">Paciente\t</string>
+    <string name="locsolL3confirma">\nNro. Ref:\t</string>
+    <string name="locsolL1else">Solicitud Recibida\nPresione AQUI para ACEPTAR la solicitud \ny DEFINIR la hora de atención</string>
+    <string name="locsolL2else">Paciente:\t</string>
+    <string name="locsolMiconsultorio">Mi \nConsultorio</string>
+    <string name="locsolConfubic">Configuración de ubicación</string>
+    <string name="locoferBuscar">Buscar en\t</string>
+    <string name="sinConexion">Sin Conexíon. Verifique que la conexión de Datos o Wi-Fi este activa e intente nuevamente.</string>
+    <string name="location_permission_denied">Esta muestra requiere permiso de ubicación para habilitar la capa \ "mi ubicación". Intente de nuevo y otorgue acceso para usar la ubicación. Si el permiso ha sido denegado permanentemente, se puede habilitar desde la Configuración del sistema &gt; Aplicaciones &gt; 'Google Maps API Demos'.</string>
+    <string name="title_tab1">Tab 1</string>
+    <string name="locoferLimpiar">Limpiar</string>
+    <string name="locoferL6aceptada">"\n Dr.\t"</string>
+    <string name="locoferrecupera">Recupera solicitudes..</string>
+    <string name="ACEPTADA">Aceptada</string>
+    <string name="SOLICITUDELABORADA">Solicitud Elaborada</string>
+    <string name="ESTACEPTADA">ACEPTADA</string>
+    <string name="ESTCONFIRMADA">CONFIRMADA</string>
+    <string name="ESTCANCELADA">CANCELADA</string>
+    <string name="ESTELABORADA">ELABORADA</string>
+    <string name="menu">Presione Menú</string>
+    <string name="acercade">Acerca de iNeed</string>
+    <string name="version">Versión 0</string>
+    <string name="derechos">"© 2017 - 2018 iNeedServ.com\nTodos los derechos reservados."</string>
+
+
+</resources>
